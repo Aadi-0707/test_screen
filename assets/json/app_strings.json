@@ -1,0 +1,293 @@
+{
+  "app_name": "InstaDownloader",
+  "app_tagline": "Download • Save • Enjoy",
+  "colors": {
+    "gradient_start": "#FF4ECD",
+    "gradient_mid": "#7B5CFF",
+    "gradient_end": "#00D4FF",
+    "sky_blue": "#00D4FF",
+    "sky_blue_glow": "#4DE8FF",
+    "neon_purple": "#7B5CFF",
+    "neon_pink": "#FF4ECD",
+    "neon_cyan": "#00D4FF",
+    "dark_bg_1": "#0A0B1E",
+    "dark_bg_2": "#12103A",
+    "dark_bg_3": "#0D1B3A",
+    "light_bg_1": "#F5F7FF",
+    "light_bg_2": "#E8EBFF",
+    "light_bg_3": "#DDE4FF",
+    "dark_text_primary": "#FFFFFF",
+    "dark_text_secondary": "#B0B3C8",
+    "dark_text_tertiary": "#7A7D9A",
+    "light_text_primary": "#1A1B35",
+    "light_text_secondary": "#5A5D7A",
+    "light_text_tertiary": "#8A8DAB",
+    "success": "#00E676",
+    "error": "#FF4757",
+    "glass_border_dark": "#018CFC",
+    "glass_border_light": "#4DE8FF",
+    "platform_instagram": "#E1306C",
+    "platform_facebook": "#1877F2",
+    "platform_pinterest": "#E60023",
+    "platform_x_dark": "#FFFFFF",
+    "platform_x_light": "#000000",
+    "white": "#FFFFFF",
+    "black": "#000000"
+  },
+  "splash": {
+    "loading_text": "Loading amazing content...",
+    "version": "Version 1.0.0"
+  },
+  "home": {
+    "title": "Download",
+    "title_highlight": "Anything",
+    "subtitle": "Fast • HD Quality • Free",
+    "paste_hint": "Paste your link here...",
+    "download_button": "Download",
+    "recent_downloads": "Recent Downloads",
+    "see_all": "See all",
+    "invalid_url_title": "Invalid URL",
+    "invalid_url_message": "Please enter a valid Instagram, Facebook, Pinterest or X link.",
+    "invalid_url_ok": "OK",
+    "empty_url_message": "Please paste a link first.",
+    "platforms": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "pinterest": "Pinterest",
+      "x": "X"
+    },
+    "nav": {
+      "home": "Home",
+      "downloads": "Downloads",
+      "history": "History",
+      "settings": "Settings"
+    },
+    "recent_items": [
+      {
+        "title": "Beautiful Sunset.mp4",
+        "size": "12.4 MB",
+        "type": "MP4"
+      },
+      {
+        "title": "Nature Image.jpg",
+        "size": "2.1 MB",
+        "type": "JPG"
+      },
+      {
+        "title": "Travel Reel.mp4",
+        "size": "8.6 MB",
+        "type": "MP4"
+      }
+    ],
+    "api_error_title": "Download Failed",
+    "network_error": "Network error. Please check your connection and try again."
+  },
+  "detect": {
+    "title": "Detecting...",
+    "subtitle": "Please wait while we detect the platform",
+    "success": "URL detected successfully!",
+    "continue_button": "Continue"
+  },
+  "media_preview": {
+    "title": "Media Preview",
+    "download_now": "Download Now",
+    "share": "Share",
+    "copy_link": "Copy Link",
+    "sample_items": [
+      {
+        "title": "Beautiful Sunset",
+        "type": "MP4",
+        "size": "12.4 MB",
+        "quality": "1080p",
+        "platform": "instagram"
+      },
+      {
+        "title": "Nature Image",
+        "type": "JPG",
+        "size": "2.1 MB",
+        "quality": "Original",
+        "platform": "instagram"
+      },
+      {
+        "title": "Travel Reel",
+        "type": "MP4",
+        "size": "8.6 MB",
+        "quality": "720p",
+        "platform": "instagram"
+      },
+      {
+        "title": "City Lights",
+        "type": "MP4",
+        "size": "15.2 MB",
+        "quality": "1080p",
+        "platform": "instagram"
+      }
+    ]
+  },
+  "downloading": {
+    "title": "Downloading",
+    "downloading_text": "Downloading...",
+    "pause": "Pause",
+    "cancel": "Cancel",
+    "resume": "Resume",
+    "speed_unit": "MB/s"
+  },
+  "download_complete": {
+    "title": "Download Completed!",
+    "subtitle": "Your file has been saved successfully.",
+    "open_file": "Open File",
+    "share": "Share",
+    "view_in_folder": "View in Folder"
+  },
+  "downloads": {
+    "title": "Downloads",
+    "tabs": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "status_completed": "Completed",
+    "status_active": "Active",
+    "status_failed": "Failed",
+    "items": [
+      {
+        "title": "Beautiful Sunset.mp4",
+        "size": "17.2 MB",
+        "type": "MP4",
+        "status": "completed"
+      },
+      {
+        "title": "Nature Image.jpg",
+        "size": "2.4 MB",
+        "type": "JPG",
+        "status": "completed"
+      },
+      {
+        "title": "Travel Reel.mp4",
+        "size": "8.6 MB",
+        "type": "MP4",
+        "status": "completed"
+      },
+      {
+        "title": "Pinterest Image.jpg",
+        "size": "4.2 MB",
+        "type": "JPG",
+        "status": "completed"
+      },
+      {
+        "title": "Facebook Video.mp4",
+        "size": "12.1 MB",
+        "type": "MP4",
+        "status": "completed"
+      }
+    ]
+  },
+  "history": {
+    "title": "History",
+    "search_hint": "Search downloads...",
+    "filters": {
+      "all": "All",
+      "video": "Video",
+      "image": "Image",
+      "other": "Other"
+    },
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "items": [
+      {
+        "title": "Beautiful Sunset.mp4",
+        "size": "17.2 MB",
+        "platform": "Instagram",
+        "time": "9:30 AM",
+        "group": "today",
+        "kind": "video"
+      },
+      {
+        "title": "Nature Image.jpg",
+        "size": "2.4 MB",
+        "platform": "Pinterest",
+        "time": "8:12 AM",
+        "group": "today",
+        "kind": "image"
+      },
+      {
+        "title": "Travel Reel.mp4",
+        "size": "8.6 MB",
+        "platform": "Facebook",
+        "time": "6:45 PM",
+        "group": "yesterday",
+        "kind": "video"
+      },
+      {
+        "title": "X Video.mp4",
+        "size": "5.1 MB",
+        "platform": "X",
+        "time": "4:20 PM",
+        "group": "yesterday",
+        "kind": "video"
+      },
+      {
+        "title": "Wallpaper.jpg",
+        "size": "3.2 MB",
+        "platform": "Instagram",
+        "time": "2:18 PM",
+        "group": "yesterday",
+        "kind": "image"
+      }
+    ]
+  },
+  "settings": {
+    "title": "Settings",
+    "sections": {
+      "download": "Download",
+      "appearance": "Appearance",
+      "storage": "Storage",
+      "about": "About"
+    },
+    "download_location": "Download Location",
+    "download_location_value": "/Storage/Download/InstaDownloader",
+    "wifi_only": "Wi-Fi Only",
+    "auto_start": "Auto Start Downloads",
+    "notifications": "Notifications",
+    "theme": "Theme",
+    "theme_value": "System",
+    "accent_color": "Accent Color",
+    "animations": "Animations",
+    "storage_usage": "Storage Usage",
+    "storage_usage_value": "2.4 GB used",
+    "clear_history": "Clear History",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "about_app": "About App"
+  },
+  "side_menu": {
+    "home": "Home",
+    "downloads": "Downloads",
+    "history": "History",
+    "settings": "Settings",
+    "share_app": "Share App",
+    "rate_us": "Rate Us",
+    "more_apps": "More Apps",
+    "premium_title": "Premium Experience",
+    "premium_subtitle": "Fast • Safe • Free"
+  },
+  "images": {
+    "home_bg_dark": "assets/images/home_dark.png",
+    "home_bg_light": "assets/images/home_light.png",
+    "platform_instagram": "assets/images/platforms/instagram.png",
+    "platform_facebook": "assets/images/platforms/facebook.png",
+    "platform_pinterest": "assets/images/platforms/pinterest.png",
+    "platform_x": "assets/images/platforms/x.png"
+  },
+  "api": {
+    "base_url": "https://backend.instadownloader.app/api",
+    "endpoints": {
+      "facebook": "/facebook/download",
+      "instagram": "/instagram/download",
+      "pinterest": "/pinterest/download",
+      "x": "/x/download"
+    },
+    "timeout_seconds": 45
+  }
+}
